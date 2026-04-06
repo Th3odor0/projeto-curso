@@ -3,88 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio do Fundão</title>
+    <title>Fundão Tech Solutions</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>É o Fundão</h1>
-    <p>Portfólio do Fundão</p>
-</header>
+    <!-- HERO (NOVO) -->
+    <section class="hero">
+        <h1>Fundão Tech Solutions</h1>
+        <p>Transformando ideias em soluções digitais de alto impacto</p>
+        <a href="#servicos" class="btn">Nossos Serviços</a>
+    </section>
 
-<section class="sobre">
-    <h2>Sobre Nós</h2>
-    <p>
-        Somos um grupo de desenvolvedores em formação, focados em aprender, 
-        evoluir e aplicar na prática os conhecimentos em tecnologia.
-    </p>
-    <p>
-        Trabalhamos com desenvolvimento web, criando projetos que envolvem 
-        front-end, back-end e banco de dados, sempre buscando melhorar 
-        nossas habilidades técnicas e de trabalho em equipe.
-    </p>
-    <p>
-        Nosso objetivo é crescer profissionalmente na área de tecnologia, 
-        enfrentando desafios reais e desenvolvendo soluções funcionais e bem estruturadas.
-    </p>
-</section>
+    <!-- SOBRE -->
+    <section class="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma equipe de desenvolvedores apaixonados por tecnologia, focados em criar soluções modernas, eficientes e escaláveis.</p>
+        <p>Atuamos no desenvolvimento web, sistemas personalizados e interfaces interativas.</p>
+        <p><strong>Missão:</strong> Entregar soluções tecnológicas que gerem valor real.</p>
+        <p><strong>Visão:</strong> Ser referência em inovação digital.</p>
+        <p><strong>Valores:</strong> Ética, compromisso, inovação e trabalho em equipe.</p>
+    </section>
 
-<section class="container">
+    <!-- CARDS -->
+    <section class="container">
 
-    <div class="card" onclick="mostrarAlerta('Theodoro')">
-    <img src="https://via.placeholder.com/150">
-    <h2>Theodoro</h2>
-    <p>Desenvolvedor Front-end</p>
+        <div class="card">
+            <img src="https://via.placeholder.com/120">
+            <h2>João Silva</h2>
+            <p>Front-End</p>
+            <small>HTML, CSS, JS</small>
+            <small>2 anos</small>
+        </div>
 
-    <small><strong>Tecnologias:</strong> HTML, CSS, JavaScript</small><br>
-    <small><strong>Experiência:</strong> Projetos escolares e prática constante</small><br>
-    <small><strong>Foco:</strong> Interfaces simples, funcionais e bem organizadas</small><br>
-    <small><strong>Objetivo:</strong> Evoluir como desenvolvedor e criar projetos profissionais</small>
-</div>
+        <div class="card">
+            <img src="https://via.placeholder.com/120">
+            <h2>Maria Souza</h2>
+            <p>Back-End</p>
+            <small>Node.js</small>
+            <small>3 anos</small>
+        </div>
 
-    <div class="card" onclick="mostrarAlerta('Guilherme')">
-        <img src="https://via.placeholder.com/150">
-        <h2>Guilherme</h2>
-        <p>Back-end</p>
-        <small>JAVASCRIPT, PYTHON, C++, PHP</small>
-    </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/120">
+            <h2>Carlos Lima</h2>
+            <p>Full Stack</p>
+            <small>Web completa</small>
+            <small>4 anos</small>
+        </div>
 
-    <div class="card" onclick="mostrarAlerta('Fernando')">
-        <img src="https://via.placeholder.com/150">
-        <h2>Fernando</h2>
-        <p>MernStack</p>
-        <small>HTML + CSS + JavaScript + React, Node.js, MongoDB</small>
-    </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/120">
+            <h2>Ana Costa</h2>
+            <p>UI/UX</p>
+            <small>Design moderno</small>
+            <small>2 anos</small>
+        </div>
 
-    <div class="card" onclick="mostrarAlerta('Arthur')">
-        <img src="https://via.placeholder.com/150">
-        <h2>Arthur</h2>
-        <p>DataBase</p>
-        <small>SQL, MySQL, MongoDB, JS/Python</small>
-    </div>
+    </section>
 
-    <div class="card" onclick="mostrarAlerta('Luis eduardo')">
-        <img src="https://via.placeholder.com/150">
-        <h2>Luis eduardo</h2>
-        <p>Front-end</p>
-         <small>HTML, CSS, JAVASCRIPT, REACT</small>
-    </div>
+    <!-- SERVIÇOS (MELHORADO) -->
+    <section class="servicos" id="servicos">
+        <h2>Nossos Serviços</h2>
 
-    <div class="card" onclick="mostrarAlerta('Everthon')">
-        <img src="https://via.placeholder.com/150">
-        <h2>Everthon</h2>
-        <p>Back-end</p>
-        <small>JAVASCRIPT, PYTHON, C++, PHP</small>
-    </div>
+        <div class="cards-servicos">
+            <div class="servico">
+                <h3>Websites</h3>
+                <p>Sites modernos e responsivos</p>
+            </div>
 
-<footer>
-    <p>© 2026 Fundão Dev Team</p>
-    <p>Projeto acadêmico com foco em aprendizado e desenvolvimento web</p>
-</footer>
+            <div class="servico">
+                <h3>Sistemas</h3>
+                <p>Soluções personalizadas</p>
+            </div>
 
-</section>
+            <div class="servico">
+                <h3>Mobile</h3>
+                <p>Aplicativos Android e iOS</p>
+            </div>
 
-<script src="script.js"></script>
+            <div class="servico">
+                <h3>UI/UX</h3>
+                <p>Interfaces profissionais</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contato">
+        <h2>Contato</h2>
+        <p>Email: contato@fundao.com</p>
+        <p>Telefone: (11) 99999-9999</p>
+        <p>São Paulo - SP</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Fundão Tech Solutions</p>
+    </footer>
+
 </body>
 </html>
